@@ -24,6 +24,7 @@ def check_price():
 
     print(converted_price)
     print(title.strip())
+        
 
 def send_mail():
     server = smtplib.SMTP('smtp.gmail.com',587)
